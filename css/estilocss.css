@@ -15,14 +15,14 @@ header {
   header .headerPagina__titulo {
     color: yellow;
     font-size: 20px;
-    font-family: "Libre Baskerville", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 10px;
     text-align: center;
     width: 100%; }
-  header h3 {
+  header .headerPagina__subtitulo {
     color: yellow;
     font-size: 20px;
-    font-family: "Libre Baskerville", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 7px;
     width: 100%;
     text-align: center; }
@@ -31,7 +31,9 @@ nav {
   color: black;
   font-size: 15px;
   font-family: "Libre Baskerville", serif;
-  background-color: black; }
+  color: black; }
+  nav .navbar-toggler {
+    background-color: gray; }
   nav .navegador {
     text-decoration: none;
     display: flex;
@@ -225,13 +227,10 @@ footer {
     align-items: center; }
     .headerPagina .headerPagina__titulo {
       font-size: 40px;
-      letter-spacing: 10px;
-      margin-left: 60px;
-      padding-left: 60px; }
+      letter-spacing: 10px; }
     .headerPagina .headerPagina__subtitulo {
-      font-size: 40px;
-      letter-spacing: 5px;
-      margin-right: 150px; }
+      font-size: 35px;
+      letter-spacing: 5px; }
   nav {
     font-size: 20px;
     height: 30px; }

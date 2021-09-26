@@ -21,15 +21,16 @@
         .headerPagina__titulo{
             color: yellow;
             font-size: $tamanioLetraTitulo;
-            font-family: $letraParrafosyTitulos;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             letter-spacing: 10px; 
             text-align: center;
             width: 100%;
+           
         }
-        h3{
+        .headerPagina__subtitulo{
             color:yellow;
             font-size: $tamanioLetraTitulo;
-            font-family: $letraParrafosyTitulos;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             letter-spacing: 7px;
             width: 100%;
             text-align: center;
@@ -41,8 +42,10 @@
         color: $colorParrafos;
         font-size: $tamanioLetraVarios;
         font-family: $letraParrafosyTitulos;
-        background-color: black;
-        
+        color: black;
+        .navbar-toggler{
+            background-color: gray;
+        }
         .navegador{ 
             text-decoration: none;
             display: flex;
@@ -359,17 +362,14 @@
             .headerPagina__titulo{
                 font-size: 40px;
                 letter-spacing: 10px;
-                margin-left: 60px; 
-                padding-left: 60px;
-                
+               
                 
             }
             .headerPagina__subtitulo{
               
-                font-size: 40px;
+                font-size:35px;
                 letter-spacing: 5px;
-                margin-right: 150px;
-               
+                
                
                 
             }   
