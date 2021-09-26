@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  background-color: black; }
+  header h1 {
+    width: 100%;
+    text-align: center; }
+  header .headerPagina__titulo {
+    color: yellow;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%; }
+  header h3 {
+    color: yellow;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 7px;
+    width: 100%;
+    text-align: center; }
+
+nav {
+  color: black;
+  font-size: 15px;
+  font-family: "Libre Baskerville", serif;
+  background-color: black; }
+  nav .navegador {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+  nav a {
+    text-decoration: none;
+    color: #f8f4f4; }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+
+main {
+  line-height: 2.5;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between; }
+  main .titulosPaginas {
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    color: #000dff;
+    height: 30%;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center; }
+  main h2 {
+    color: #363535;
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px; }
+  main .parrafosMenu {
+    color: black;
+    font-size: 13px;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    letter-spacing: 8px;
+    width: 100%;
+    text-align: center;
+    height: 30%; }
+  main .menuHome {
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  main th {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    height: 80px; }
+  main td {
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    width: 33%;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center; }
+  main .kit {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 33%;
+    height: 80px; }
+  main .aceites {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 33%;
+    height: 80px; }
+  main .partes {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 33%;
+    height: 80px; }
+  main li {
+    font-size: 15px;
+    list-style: none; }
+  main table {
+    width: 100%;
+    margin-bottom: 30px; }
+  main fieldset {
+    font-size: 15px; }
+  main .Contacto {
+    font-size: 15px; }
+  main .parrafosServicios {
+    width: 80%;
+    height: 70%;
+    color: black;
+    font-size: 15px;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    text-align: center; }
+  main .tituloServicios {
+    font-size: 20px;
+    height: 20%;
+    text-align: center;
+    width: 60%; }
+  main .paginaServ {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  main .paginaServ {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  main .row div {
+    padding: 1em; }
+
+footer {
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: black;
+  padding-right: 20px; }
+  footer .separacionIconos {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: #0a8fbb; }
+  footer i:hover {
+    transform: scale(2, 2); }
+
+@media only screen and (min-width: 600px) {
+  header {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: "Logo Principal " "Logo Secundario"; }
+    header h1 {
+      height: 150px;
+      width: 27%;
+      grid-area: Logo; }
+    header .headerPagina__titulo {
+      font-size: 30px;
+      width: 80%;
+      grid-area: Principal;
+      text-align: center; }
+    header .headerPagina__subtitulo {
+      font-size: 30px;
+      width: 80%;
+      grid-area: Secundario; }
+  .nav {
+    display: inline-block; }
+    .nav .navegador {
+      flex-direction: row;
+      justify-content: space-around;
+      height: 80%; }
+  main .titulosPaginas {
+    font-size: 30px;
+    text-align: center; }
+  main .menuHome {
+    height: 700px;
+    flex-direction: column; }
+  main .parrafosMenu {
+    font-size: 15px;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px; }
+  main .tituloServicios {
+    width: 60%;
+    height: 100px;
+    font-size: 30px;
+    text-align: center; }
+  main .parrafosServicios {
+    width: 60%;
+    height: 150px;
+    font-size: 15px; } }
+
+@media only screen and (min-width: 992px) {
+  .headerPagina {
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .headerPagina .headerPagina__titulo {
+      font-size: 40px;
+      letter-spacing: 10px;
+      margin-left: 60px;
+      padding-left: 60px; }
+    .headerPagina .headerPagina__subtitulo {
+      font-size: 40px;
+      letter-spacing: 5px;
+      margin-right: 150px; }
+  nav {
+    font-size: 20px;
+    height: 30px; }
+  main .titulosPaginas {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    main .titulosPaginas .parrafosMenu {
+      font-size: 16px;
+      letter-spacing: 5px;
+      word-spacing: 18px;
+      height: 600px;
+      width: 100%; } }
