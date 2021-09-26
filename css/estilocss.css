@@ -14,14 +14,14 @@ header {
     text-align: center; }
   header .headerPagina__titulo {
     color: yellow;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 10px;
     text-align: center;
     width: 100%; }
   header .headerPagina__subtitulo {
     color: yellow;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 7px;
     width: 100%;
@@ -56,7 +56,7 @@ main {
   justify-content: space-between; }
   main .titulosPaginas {
     font-family: "Libre Baskerville", serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #000dff;
     height: 30%;
     width: 100%;
@@ -87,13 +87,13 @@ main {
     justify-content: center; }
   main th {
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Roboto Mono", monospace;
     text-align: center;
     height: 80px; }
   main td {
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     width: 33%;
     height: 100px;
@@ -136,7 +136,7 @@ main {
     font-style: italic;
     text-align: center; }
   main .tituloServicios {
-    font-size: 20px;
+    font-size: 25px;
     height: 20%;
     text-align: center;
     width: 60%; }
@@ -164,7 +164,7 @@ footer {
   background: black;
   padding-right: 20px; }
   footer .separacionIconos {
-    width: 10%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     color: #0a8fbb; }
@@ -216,7 +216,11 @@ footer {
   main .parrafosServicios {
     width: 60%;
     height: 150px;
-    font-size: 15px; } }
+    font-size: 15px; }
+  footer {
+    font-size: 35px; }
+    footer .separacionIconos {
+      width: 20%; } }
 
 @media only screen and (min-width: 992px) {
   .headerPagina {
@@ -244,4 +248,8 @@ footer {
       letter-spacing: 5px;
       word-spacing: 18px;
       height: 600px;
-      width: 100%; } }
+      width: 100%; }
+  main .video {
+    height: 300px; }
+  footer .separacionIconos {
+    width: 10%; } }

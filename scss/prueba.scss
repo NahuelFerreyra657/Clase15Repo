@@ -224,6 +224,7 @@
         .row div{
             padding: 1em;
         }
+        
 
        
         
@@ -244,7 +245,7 @@
         
         
         .separacionIconos{
-            width: 10%;
+            width: 25%;
             display: flex;
             justify-content: space-between;
             color: rgb(10, 143, 187);
@@ -339,6 +340,16 @@
 
                     
                 }
+                footer{
+                    font-size: 35px;
+                    
+                    
+                    .separacionIconos{
+                        width: 20%;
+                        
+                    }
+                    
+                }
 
         }
         
@@ -400,7 +411,21 @@
                 
             
             }
+            .video{
+                height: 300px;
             }
+            }
+            footer{
+                
+                
+                
+                .separacionIconos{
+                    width: 10%;
+                    
+                }
+                
+            }
+
 
         }
        
