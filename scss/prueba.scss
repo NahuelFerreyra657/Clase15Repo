@@ -224,7 +224,6 @@
         .row div{
             padding: 1em;
         }
-        
 
        
         
@@ -245,7 +244,7 @@
         
         
         .separacionIconos{
-            width: 25%;
+            width: 27%;
             display: flex;
             justify-content: space-between;
             color: rgb(10, 143, 187);
@@ -341,14 +340,12 @@
                     
                 }
                 footer{
-                    font-size: 35px;
-                    
+                   
                     
                     .separacionIconos{
-                        width: 20%;
-                        
+                        width: 16%;
+                     
                     }
-                    
                 }
 
         }
@@ -363,7 +360,8 @@
 
     @media only screen and (min-width:992px){
        .headerPagina{
-            height: 140px;
+            height: 120px;
+            width: 100%;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -371,6 +369,7 @@
     
             
             .headerPagina__titulo{
+                width: 40%;
                 font-size: 40px;
                 letter-spacing: 10px;
                
@@ -380,6 +379,7 @@
               
                 font-size:35px;
                 letter-spacing: 5px;
+                text-align: unset;
                 
                
                 
@@ -411,21 +411,15 @@
                 
             
             }
-            .video{
-                height: 300px;
-            }
             }
             footer{
-                
-                
-                
+                font-size: 35px;  
+                    
                 .separacionIconos{
                     width: 10%;
-                    
+                 
                 }
-                
             }
-
 
         }
        
