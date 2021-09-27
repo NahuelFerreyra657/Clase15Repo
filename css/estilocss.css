@@ -154,6 +154,8 @@ main {
     align-items: center; }
   main .row div {
     padding: 1em; }
+  main .video {
+    height: 350px; }
 
 footer {
   font-size: 30px;
